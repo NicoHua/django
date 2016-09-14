@@ -1,0 +1,61 @@
+﻿
+
+
+
+UL{list-style-position:outside;word-break:break-all;list-style-type:none;word-wrap:break-word;margin:0;padding:0;}
+.IndexPost-Title-Bg{float:left;width:100%;text-align:left;padding:0;}
+
+
+#zishu_test { width: 302px; height: 170px; float:left; margin:30px; border:2px solid #fff;}
+#zishu_test:hover { width: 302px; border-bottom:2px #e2e2e2 solid; border-right:2px #e2e2e2 solid;margin:30px;}
+#zishu_test li{ float:left; width:14%;text-align:center; margin:0 auto; list-style:none;}
+#zishu_test li a{border:1px solid #E2E2E2;width:302px; display:block;color:#333;text-decoration : none;line-height: 17px;font-family: "Arial";font-size: 14px;}
+#zishu_test li img{ width:302px; height:150px;border-bottom:1px solid #E2E2E2;}
+#zishu_test li span{display:none;}
+
+#zishu_test li a:hover{ border:1px solid #000; height:170px;font-family: "Arial";font-size: 14px;text-align:left;line-height: 17px; text-align:center;} 
+#zishu_test li a:hover span{margin-top:152px;display:block;background:#333; width:302px;color:#fff;position:absolute; border-top:1px solid #000;font-family: "Arial";font-size: 14px;} 
+* html #zishu_test li a:hover span {margin-left:0px; } /* IE6 */ 
+*+html #zishu_test li a:hover span {margin-left:0px; }/* IE7*/ 
+
+/*AdminMasterPage CSS*/
+.sort1
+{
+    width:100%;
+    background-color: #FDFDFF;
+    clear:both; 
+    table-layout:fixed;
+    text-align:center;
+    position:relative; 
+}
+
+.sort1 ul li
+{
+    border-width: 1px thin 1px thin;
+    border-style: solid;
+    border-color: #C0C0C0;
+}
+.navli
+{
+    background-color:Write;
+}
+
+a.firstli
+{
+    text-align:center;
+}
+
+a.firstli:hover
+{
+    color:Red;
+}
+
+.navspan
+{
+    background-color:Write;
+}
+
+.navspan:hover
+{
+    color:Red;
+}
