@@ -1,0 +1,456 @@
+body
+{
+    font-size: 14px;
+    color: #333;
+    width: 98.2%;
+
+    font-family: 'MS Reference Sans Serif';
+    min-width: 1300px;
+}
+.tab
+{text-decoration:none;font-size:20px;color:#ffffff; width:97px; height:36px;
+ cursor: hand; position: absolute;top: 152px; text-align: center;
+}
+	
+#picBox{width:652px; height:300px; margin:0px auto; overflow:hidden; position:relative;}
+#picBox ul#show_pic{ margin:0; padding:0; list-style:none; height:300px; width:3050px; position:absolute;}
+#picBox ul#show_pic li{ float:left; margin:0; padding:0; height:300px;}
+#picBox ul#show_pic li img{ display:block;}
+#icon_num{ position:absolute; bottom:0px; right:10px;}
+#icon_num li{ float:left; background:gray; color:#fff;width:15px; height:15px; list-style:none; text-align:center;  cursor:pointer; padding:0; margin:0;margin-right:5px;}
+#icon_num li:hover,#icon_num li.active{ background:red; color:#000; }
+#picBox_top{width:652px; height:300; margin:50px auto; position:relative; overflow:hidden;}
+#picBox_top ul#show_pic_top{ margin:0; padding:0; list-style:none; height:300px; width:652px; position:absolute;}
+#picBox_top ul#show_pic_top li{ float:left; margin:0; padding:0; height:300px;}
+#picBox_top ul#show_pic_top li img{ display:block;}
+#icon_num_top{ position:absolute; bottom:0px; right:10px;}
+#icon_num_top li{ float:left; background:gray; color:#fff; width:15px; height:15px; list-style:none; text-align:center;  cursor:pointer; padding:0; margin:0;margin-right:5px;}
+#icon_num_top li:hover,#icon_num_top li.active{ background:yellow; color:#000; font-weight:bold; }
+
+a
+{text-decoration:none; color:Black; cursor:hand;}
+
+#resource_list li:decimal
+{
+	list-style-position: outside;
+	list-style-type: decimal;
+}
+
+#notice_title
+{width:100%;height:100%;}
+
+.news_table
+{
+	margin-top:0px; 
+}
+
+.new_table li
+{
+	text-align: left; margin-top:5px; margin-left:10px;
+}
+
+.model
+{
+	text-decoration:none;font-size:20px;
+	color:#ffffff; width:24%;
+	margin-top:10px;
+}
+
+.navigation_matter
+{
+	border-bottom: gainsboro thin solid;
+	border-left: gainsboro thin solid;
+	border-top: gainsboro thin solid;
+	border-right: gainsboro thin solid;
+	margin-top:2px;
+	width:99.5%;
+	height:100%;
+	text-align:center;
+}
+
+.navigation
+{
+    float: left;
+    width: 98.5%;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 14px;
+    border-bottom: red solid;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    position:relative;
+}
+
+.navigation img
+{
+  margin-bottom:5px; margin-top:10px;
+}
+
+.model_list
+{
+	width:100%;float:left;
+	margin-left:auto; margin-right:auto;
+}
+
+.title
+{ text-align:center; font-size:20px; font-style:normal; margin-top:10px;margin-left:10px;}
+
+.gridview
+{ width:100%; }
+
+.info_table
+{ text-align:left; font-size:14px;  margin-top:-10px;margin-left:15px; border-style:none; }
+
+.page_index
+{ text-align:center; font-size:14px; margin:auto; width:100%;}
+
+.page_npfl
+{ cursor: hand; }
+
+.search
+{ text-align:right; vertical-align:middle;  padding-right:10px;}
+
+.tabPanel
+{ height:20px; line-height:20px; float:right; margin-top:-8px;}
+
+tab_item,tab_cur,tab_more
+{ float:left; line-height:20px; height:20px;text-align:left;font-size:13px;}
+
+.search_box
+{margin-top:-10px; margin-right:5px;}
+
+.search_list
+{ width:235px;margin-right:5px;}
+
+.search_button
+{ width:4%; text-align:center; height:20px; margin-bottom:-5px;}
+
+.menulisttitle
+{
+	float:left;height:34px;color:#fff;width:100%; 
+	line-height:34px;font-size:14px;font-weight:bold;
+	text-align:left; 
+}
+
+.menulist
+{
+    border-style: solid;
+    border-width: 1px thin 1px thin;
+    border-color: #C0C0C0;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    background-color: #EDEDF1;
+    padding-left: 10px;
+    clear:both;
+}
+         
+.menutitle
+{
+	float:left;display: inline; margin-top:10px;width:100.6%; 
+	height:37px;color:#000;line-height:37px;font-size:20px;text-align:left;padding-left:28px;
+}
+
+.menu
+{
+	float:left;width:17%; vertical-align:top;top:10px;
+}
+
+.righttitle
+{
+	float:left;width:79%; vertical-align:top;top:10px; margin-left:36px;
+}
+
+.childmenu
+{
+	float:left;vertical-align:top;top:10px;	
+}
+
+.sort
+{
+ float:left;background-color: #FDFDFF;
+ width:100%;clear:both; table-layout:fixed;
+ position:relative; 
+}
+
+.sort ul
+{float:left;width:100%; font-size:14px;  }
+
+.sort ul li
+{
+    border-width: 1px thin 1px thin;
+    border-style: solid;
+    border-color: #C0C0C0;
+    height: 30px;
+    line-height: 30px;
+
+    text-align: left;
+    padding-left: 25px;
+    vertical-align:middle; 
+}
+
+.sort li a
+{color:#333;}
+
+.sort li a:hover
+{background-color: #c7c7c7;}
+
+.menuitem
+{float:left;line-height:20px;text-align:left; margin-left:-15px; cursor:hand;}
+
+.rightcontent
+{
+	background-color: White;margin:0px;padding:0px;font-size:12px;margin-top:35px;	
+}
+
+.tablexian
+{
+	margin:0px auto;border-collapse:collapse;width:98%;background-color: #FFF;margin-top:10px;margin-bottom:10px;
+}
+
+.tablexianbg{
+	background-color: #F1F1F1;
+}
+
+.tablexian td{border : 1px solid #E6E6E6;height:25px;line-height:25px;padding:3px;}
+
+input,textarea,select
+{
+	line-height:22px;font-size:12px;
+}
+
+.searchaccount
+{text-align:right; margin-top:30px; margin-right:20px;}
+
+.search_account_box
+{margin-top:-16px; margin-right:-26px;}
+
+.ChkUnckAll
+{ text-align:left; font-size:14px;margin-left:10px; margin-top:-5px;}
+
+.tabPanel_Manage
+{height:20px; float:right;margin-right:10px;margin-top:5px;}
+
+.search_Manage_box
+{margin-top:-35px; margin-right:-26px;}
+
+.top_navigation
+{
+	width: 90%;
+	list-style-type: none;
+	text-align: center;
+	height: 35px;
+	line-height:35px;
+	margin-left:auto;
+	margin-right:auto;
+	vertical-align:middle;
+    margin-top:0 auto;
+}
+
+.top_navigation ul
+{ font-size:15px; list-style-type:none; width:100%;font-weight: normal;color:#999;}
+
+.top_navigation ul li
+{		float:left; width:12.5%;
+    position:relative;
+    text-align:center; 
+    display:block;
+}
+
+.top_navigation li a
+{
+
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Sans-Serif;
+}
+
+.top_navigation li a:hover
+{ color:Red;vertical-align:middle;}
+
+.top_navigation a
+{
+
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Sans-Serif;
+}
+
+.top_navigation a:hover
+{ color:Red;vertical-align:middle;}
+
+/*上圆角框通用设置样式，如果要运用多个不同颜色，以下6句不用重新变化--------------------------------*/
+.b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8{height:1px; font-size:1px; overflow:hidden; display:block;}
+.b1,.b8{margin:0 5px;}
+.b2,.b7{margin:0 3px;}
+.b3,.b6{margin:0 2px;}
+.b4,.b5{margin:0 1px;}
+
+/*下面第一、二句决定边框颜色，第三句决定背景颜色*/
+/*边框色*/
+/*.color1 .b2, .color1 .b3, .color1 .b4, .color1 .b5, .color1 .b6, .color1 .b7, .color1 .content
+{
+	border-color: #A5A5A5;
+}*/
+/*.color1 .b1,.color1 .b8{background:#A5A5A5;}*/
+/*背景色*/
+/*.color1 .b2,.color1 .b3,.color1 .b4,.color1 .b5,.color1 .b6,.color1 .b7,.color1 .content{background:#A5A5A5;}*/
+.color1 .b1{background:#dadddd;}
+.color1 .b2{background:#dadddd;}
+.color1 .b3{background:#dadddd;}
+.color1 .b4{background:#dadddd;}
+.color1 .b5{background:#bab9b9;}
+.color1 .b6{background:#bab9b9;}
+.color1 .b7{background:#bab9b9;}
+.color1 .b8{background:#bab9b9;}
+.content
+{text-align:center;margin:0 auto; height:28px; line-height:28px; 
+background-image:url(../img/tab.jpg); background-repeat:repeat-x; }
+
+.welcome
+{font-size:13px;
+ position:relative; top:50px; 
+}
+
+.date
+{ font-size:13px;
+  position:relative;top:55px;margin-right:15px;
+}
+
+.day
+{
+    font-size:13px;
+    position:relative;top:55px;margin-right:8px;
+}
+
+.userquit
+{ text-decoration:none; color:Red;}
+
+.logo_navigation
+{width:100%; text-align:center;vertical-align:middle; height:170px;}
+
+.matter
+{ vertical-align:top; margin-left:5%; width:90%; margin-top:20px; height:720px; }
+
+#matter_table
+{width:100%; height:100%; top:-10px;}
+
+#matter_table tr
+{ width:100%;}
+
+#left_table
+{ width:100%; height:100%; table-layout:fixed; }
+
+#left_table tr
+{ width:100%;}
+
+#left_table tr td 
+{
+	border-bottom: gainsboro thin solid;
+	border-left: gainsboro thin solid;
+	border-top: gainsboro thin solid;
+	border-right: gainsboro thin solid;
+    vertical-align:top; 
+    width:100%;
+}
+
+#left_table tr td li
+{ 
+ margin-top:5.6px; list-style-type:none;  margin-left:auto;
+ width:96%;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+
+#left_table tr td li a:hover
+{ 
+ color:Red;
+}
+
+#left_table tr td li img
+{ margin-top:5px;}
+
+#right_table,#right_table1,,#right_table2
+{ width:100%; height:100%;  table-layout:fixed; padding:0; margin:0}
+
+#right_table tr,#right_table1 tr,#right_table2 tr
+{ width:100%;}
+
+#right_table tr td ,#right_table1 tr td,#right_table2 tr td 
+{
+	border-bottom: gainsboro thin solid;border-left: gainsboro thin solid;border-top: gainsboro thin solid;border-right: gainsboro thin solid;vertical-align:top; 
+    width:100%;
+}
+
+#item_name a:hover
+{
+	color:Red; 
+}
+
+
+
+.title-fri
+{font-size:14px;line-height:1.29;font-weight:bold}
+
+#center_table
+{ width:100%; height:100%; table-layout:fixed; min-width:652px; }
+
+#center_table tr
+{ width:100%;}
+
+#center_table tr td 
+{
+	border-bottom: gainsboro thin solid;
+	border-left: gainsboro thin solid;
+	border-top: gainsboro thin solid;
+	border-right: gainsboro thin solid;
+    vertical-align:top; 
+    width:100%;
+}
+
+.notice_list
+{text-align:center; vertical-align:middle; position:relative; }
+
+.container
+{   width: 100%;height: 16px;
+	font-size: 14px;background: #f0f0f0;
+	border: 1px solid #d6d6d6;
+    margin-top:8px;margin-bottom:8px;
+    margin-left:auto;
+	margin-right:auto;
+    padding-top:8px;padding-bottom:8px;
+    list-style-type:none;  
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+    text-align:left; position:relative; 
+}
+
+.container a
+{
+   height: 16px;
+   line-height:16px;
+}
+
+.container a:hover
+{
+   color:Red; 
+}
+
+
+
+.tabtitle img
+{ margin-left:8px; margin-top:3px;margin-right:8px;}
+
+.tabtitle-left
+{float:left; }
+
+.tabtitle-right
+{ float:right;}
+
+.tabtitle a
+{
+	font-size:13px;
+	vertical-align:middle;
+	height:28px;
+	line-height:28px;
+	color:#339999;
+    margin-right: 0%;
+    width:100%;
+}

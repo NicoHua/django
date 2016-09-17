@@ -1,0 +1,113 @@
+.GridViewStyle
+{
+    border: 2px solid Gray;
+    width:100%;
+    text-align:left;
+    font-family: Verdana, Sans-Serif;
+    font-size:13px;
+    table-layout:auto;
+    text-align:left;
+    word-wrap:break-word;
+    word-break:break-all;
+}
+
+.GridViewHeaderStyle
+{
+    background-color:#DDDDDD;
+    color:Black;
+    height:30px;
+    text-align:center;
+}
+
+.GridViewRowStyle
+{
+    
+}
+
+.ItemStyleCSS
+{
+    border: 1px solid Gray;
+    height:40px;
+}
+
+.navigationstyle
+{
+	float: left;
+	width:100%;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:20px;
+	height:20px;
+	line-height:20px;
+	text-align:left;
+	font-size:14px;
+}
+
+.gridviewdiv
+{
+    margin:10px;
+}
+
+.buttons
+{ 
+    width:50px;
+    text-align:center;
+    height:20px;
+    margin-bottom:-2px;
+}
+
+.go_button
+{ 
+    width:50px;
+    height:23px;
+    padding:3px;
+    font-size:12px;
+    line-height:10px;
+}
+
+.MessageTitle
+{
+    text-align:left;
+    font-size:16px;
+    font-weight:bold;
+}
+
+
+.MessageBody
+{
+    text-align:left;
+    vertical-align:top;
+    font-size:16px;
+}
+
+.Time
+{
+    text-align:left;
+    font-size:12px;
+}
+
+.UserNameStyle
+{
+    text-align:center;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.page_index
+{ text-align:center; font-size:14px; margin:auto; width:100%;}
+
+.linkbuttons
+{
+    text-decoration:underline;
+}
+
+.searchtip
+{ text-align:center; vertical-align:middle;  padding-right:10px; }
+
+.WelcomeLabel
+{
+    position:relative;
+    top:60%;
+    left:45%;
+    font-size:38px;
+}

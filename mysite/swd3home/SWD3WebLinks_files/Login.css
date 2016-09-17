@@ -1,0 +1,85 @@
+﻿.page
+{
+    width: 930px;
+    margin: 5% auto 0px auto;
+}
+
+.LoginCenterPanel
+{
+	position:relative;
+	left:4%;
+	top:19%;
+	width: 960px;
+    
+}
+
+.LoginTable
+{
+	position:relative;
+	left:63%;
+	top:50%;
+}
+
+.LoginInput
+{
+	width:150px;
+	vertical-align:middle;
+	margin:10px 0px 10px 0px;
+}
+
+.RegisterCenterPanel
+{
+	position:relative;
+	left:4%;
+	top:19%;
+	width: 960px;
+    
+}
+
+.RegisterTable
+{
+	position:relative;
+	left:40%;
+	top:33%;
+	border-bottom-color:Blue;
+	font-size:small;
+	font-family:Verdana, Sans-Serif;
+}
+
+.ErrorLogin
+{
+	font-size:small;
+	font-family:Verdana, Sans-Serif;
+	vertical-align:middle;
+	margin:10px 0px 10px 0px;
+}
+
+.inputlabel
+{
+	font-size:small;
+	font-family:Verdana, Sans-Serif;
+	text-align:center;
+	position:relative;
+	vertical-align:middle;
+	margin:10px 0px 10px 0px;
+}
+
+.n-tab
+{
+	position:relative;
+	top:10px;
+	font-size:medium;
+	font-family:Verdana, Sans-Serif;
+	text-decoration:none;
+	color:Black;
+}
+
+.n-tab:hover
+{
+	color:Maroon;
+}
+
+.n-tab:active
+{
+	color:Blue;
+}
